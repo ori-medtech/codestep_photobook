@@ -1,0 +1,120 @@
+/* utility */
+$fontColor: #333;
+$baseColor: #f4f9ff;
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: $fontColor;
+  font-family: "Ariel", "メイリオ", sans-serif;
+  font-size: 1.4rem;
+  background-color: $baseColor;
+  max-width: 1000px;
+  margin: 0 auto;
+  h2 {
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+  }
+}
+
+.content-wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 60px;
+}
+
+/* header */
+.logo {
+  height: auto;
+  margin-top: 60px;
+  img {
+   height: 18px;
+   width: 160px;
+  }
+}
+
+.mainvisual {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* main-index */
+
+.index {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li + li {
+    padding-top: 20px;
+  }
+}
+
+/* main-detail */
+
+.detail-contents {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 45%;
+  }
+}
+
+.detail-content {
+  width: 45%;
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  a {
+    color: $fontColor;
+
+    &:visited {
+      color: $fontColor;
+    }
+  }
+}
+
+.detail-table {
+  width: 100%;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  table {
+    width: 100%;
+    text-align: left;
+    margin-right: auto;
+
+    th {
+      font-weight: normal;
+    }
+
+    td {
+      padding-left: 23px;
+    }
+  }
+}
+
+footer {
+  margin-top: 115px;
+  margin-bottom: 15px;
+}
+

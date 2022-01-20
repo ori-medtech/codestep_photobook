@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* utility */
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #333;
+  font-family: "Ariel", "メイリオ", sans-serif;
+  font-size: 1.4rem;
+  background-color: #f4f9ff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body h2 {
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+
+.content-wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 60px;
+}
+
+/* header */
+.logo {
+  height: auto;
+  margin-top: 60px;
+}
+
+.logo img {
+  height: 18px;
+  width: 160px;
+}
+
+.mainvisual {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* main-index */
+.index {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.index ol {
+  list-style-position: inside;
+}
+
+.index li + li {
+  padding-top: 20px;
+}
+
+/* main-detail */
+.detail-contents {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.detail-contents img {
+  width: 45%;
+}
+
+.detail-content {
+  width: 45%;
+}
+
+.detail-content p {
+  padding-bottom: 20px;
+}
+
+.detail-content a {
+  color: #333;
+}
+
+.detail-content a:visited {
+  color: #333;
+}
+
+.detail-table {
+  width: 100%;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.detail-table table {
+  width: 100%;
+  text-align: left;
+  margin-right: auto;
+}
+
+.detail-table table th {
+  font-weight: normal;
+}
+
+.detail-table table td {
+  padding-left: 23px;
+}
+
+footer {
+  margin-top: 115px;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */
