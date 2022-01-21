@@ -1,21 +1,21 @@
 @charset "UTF-8";
 /* utility */
-html {
-  font-size: 10px;
-}
-
 body {
   color: #333;
   font-family: "Ariel", "メイリオ", sans-serif;
-  font-size: 1.4rem;
+  font-size: 14px;
   background-color: #f4f9ff;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 body h2 {
-  font-size: 1.8rem;
+  font-size: 18px;
   padding-bottom: 10px;
+}
+
+body h3 {
+  font-size: 18px;
 }
 
 .content-wrapper {
@@ -74,8 +74,12 @@ section {
           justify-content: space-between;
 }
 
-.detail-contents img {
+.detail-img {
   width: 45%;
+}
+
+.detail-img img {
+  width: 100%;
 }
 
 .detail-content {
@@ -116,6 +120,7 @@ section {
 
 .detail-table table td {
   padding-left: 23px;
+  line-height: 0.5;
 }
 
 footer {
