@@ -1,0 +1,32 @@
+@media screen and (max-width: 670px) {
+ .content-wrapper {
+   width: 100%;
+   padding-right: 40px;
+   padding-left: 40px;
+ } 
+
+  header {
+    margin-right: 10px;
+    margin-left: 10px; 
+  }
+
+  .mainvisual {
+    height: 142px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .detail-contents {
+    display: block;
+  }
+
+  .detail-img {
+    width: 100%;
+  }
+
+  .detail-content {
+    width: 100%;
+    padding-top: 25px;
+  }
+
+}
