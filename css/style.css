@@ -5,8 +5,6 @@ body {
   font-family: "Ariel", "メイリオ", sans-serif;
   font-size: 14px;
   background-color: #f4f9ff;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 body h2 {
@@ -18,8 +16,13 @@ body h3 {
   font-size: 18px;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .content-wrapper {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -29,13 +32,18 @@ section {
 
 /* header */
 .logo {
-  height: auto;
+  line-height: 0;
   margin-top: 60px;
+  margin-bottom: 15px;
 }
 
 .logo img {
   height: 18px;
   width: 160px;
+}
+
+.logo a {
+  display: block;
 }
 
 .mainvisual {
@@ -72,6 +80,10 @@ section {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .detail-img {
@@ -96,6 +108,10 @@ section {
 
 .detail-content a:visited {
   color: #333;
+}
+
+.detail-content a:hover {
+  opacity: .8;
 }
 
 .detail-table {
