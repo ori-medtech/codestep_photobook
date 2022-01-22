@@ -13,7 +13,8 @@
   .mainvisual {
     height: 142px;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: 50% bottom;
   }
 
   .detail-contents {

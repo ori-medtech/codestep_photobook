@@ -11,8 +11,10 @@
   .mainvisual {
     height: 142px;
     width: 100%;
-    -o-object-fit: fill;
-       object-fit: fill;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% bottom;
+       object-position: 50% bottom;
   }
   .detail-contents {
     display: block;
