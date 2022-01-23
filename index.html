@@ -4,72 +4,56 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHOTO BOOK</title>
-  <link rel="icon" href="img/favicon.ico" type="./favicon.ico">
-  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <title>Recipe Diary</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mobilestyle.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1 class="logo"><a href="index.html"><img src="img/logo.svg" alt="PHOTO BOOK"></a></h1>
-    </header>
-    <main>
-      <img src="img/mainvisual.jpg" alt="店舗写真" class="mainvisual">
-      <section class="index">
-        <div class="content-wrapper">
-          <h2 class="section-title">INDEX</h2>
-          <ol>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-          </ol>
+  <section class="mainvisual">
+    <img src="img/mainvisual.jpg" alt="メインビジュアル">
+  </section>
+  <main>
+    <section class="introduction">
+        <div class="container">
+          <h1>Recipe Diary</h1>
+          <p>
+            日々の料理レシピをまとめています。<br>
+            和食や洋食、中華、お菓子までいろいろな料理レシピをアップしていますので、<br>
+            みなさんの献立にお役立てくださいね！
+          </p>
         </div>
       </section>
-      <section class="detail">
-        <div class="content-wrapper">
-          <h2 class="section-title">DETAIL</h2>
-          <div class="detail-contents">
-            <div class="detail-img">
-              <img src="img/detail.jpg" alt="詳細">
-            </div>
-            <div class="detail-content">
-              <h3>タイトルタイトルタイトル</h3>
-              <div class="detail-table">
-                <table>
-                  <tr>
-                    <th>著者</th>
-                    <td>タイトルタイトルタイトル</td>
-                  </tr>
-                  <tr>
-                    <th>出版社</th>
-                    <td>タイトルタイトルタイトル</td>
-                  </tr>
-                  <tr>
-                    <th>発行年</th>
-                    <td>タイトルタイトルタイトル</td>
-                  </tr>
-                </table>
-              </div>
-              <p>テキストテキストテキストテキストテキス
-                トテキスト テキストテキストテキストテ
-                キストテキストテキスト</p>
-              <a href="#"><span>オンラインストアで見る</span></a>
-            </div>
-        </div>
+    
+      <section class="recipe">
+        <ul>
+          <li><img src="img/recipe1.jpg" alt="レシピその1"></li>  
+          <li><img src="img/recipe2.jpg" alt="レシピその2"></li>  
+          <li><img src="img/recipe3.jpg" alt="レシピその3"></li>  
+        </ul>
+      </section>
+  
+      <section class="more">
+        <div class="container">
+          <a href="#" class="more_button">レシピ一覧を見る</a>
         </div>
       </section>
   
       <footer>
-        <div class="content-wrapper">
-          <p>© 2020 PHOTO BOOK</p>
+        <div class="container">
+          <ul class="sns">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>© 2021 Recipe Diary</p>
         </div>
       </footer>
-  
-    </main>
   </div>
+
+  </main>
+  
 </body>
 </html>
